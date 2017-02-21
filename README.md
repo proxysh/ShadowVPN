@@ -46,7 +46,7 @@ Download bundled [ShadowVPN with LuCI], or just [download ShadowVPN] itself,
 Or build ShadowVPN yourself: cd into [SDK] root, then
 
     pushd package
-    git clone https://github.com/clowwindy/ShadowVPN.git
+    git clone https://github.com/proxysh/ShadowVPN.git
     popd
     make menuconfig # select Network/ShadowVPN
     make V=s
@@ -78,7 +78,7 @@ Configuration
 placeholder at the end of those scripts.
 - If you are using Windows, the IP address of TUN/TAP device `tunip` is
 required to be specified in the conf file.
-- You can [configure multiple users](https://github.com/clowwindy/ShadowVPN/wiki/Configure-Multiple-Users)
+- You can [configure multiple users](https://github.com/proxysh/ShadowVPN/wiki/Configure-Multiple-Users)
 
 
 Usage
@@ -107,12 +107,10 @@ Wiki
 ----
 
 You can find all the documentation in the wiki:
-https://github.com/clowwindy/ShadowVPN/wiki
+https://github.com/proxysh/ShadowVPN/wiki
 
 License
 -------
-
-Copyright (C) 2015 clowwindy
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -135,19 +133,19 @@ Bugs and Issues
 - [Mailing list]
 
 
-[Android]:              https://github.com/clowwindy/ShadowVPNAndroid
+[Android]:              https://github.com/proxysh/ShadowVPNAndroid
 [Build Status]:         https://travis-ci.org/clowwindy/ShadowVPN.svg?branch=master
-[Build deb Package]:    https://github.com/clowwindy/ShadowVPN/wiki/Building-deb-Package
-[Build for Windows]:    https://github.com/clowwindy/ShadowVPN/wiki/Build-for-Windows
-[Compare]:              https://github.com/clowwindy/ShadowVPN/wiki/Compared-to-Shadowsocks-and-OpenVPN
-[Chinese Readme]:       https://github.com/clowwindy/ShadowVPN/wiki/ShadowVPN-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
-[download ShadowVPN]:   https://github.com/clowwindy/ShadowVPN/releases
-[FAQ]:                  https://github.com/clowwindy/ShadowVPN/wiki/FAQ
-[iOS]:                  https://github.com/clowwindy/ShadowVPNiOS
-[Issue Tracker]:        https://github.com/clowwindy/ShadowVPN/issues?state=open
-[LuCI Configuration]:   https://github.com/clowwindy/ShadowVPN/wiki/Configure-Via-LuCI-on-OpenWRT
+[Build deb Package]:    https://github.com/proxysh/ShadowVPN/wiki/Building-deb-Package
+[Build for Windows]:    https://github.com/proxysh/ShadowVPN/wiki/Build-for-Windows
+[Compare]:              https://github.com/proxysh/ShadowVPN/wiki/Compared-to-Shadowsocks-and-OpenVPN
+[Chinese Readme]:       https://github.com/proxysh/ShadowVPN/wiki/ShadowVPN-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E
+[download ShadowVPN]:   https://github.com/proxysh/ShadowVPN/releases
+[FAQ]:                  https://github.com/proxysh/ShadowVPN/wiki/FAQ
+[iOS]:                  https://github.com/proxysh/ShadowVPNiOS
+[Issue Tracker]:        https://github.com/proxysh/ShadowVPN/issues?state=open
+[LuCI Configuration]:   https://github.com/proxysh/ShadowVPN/wiki/Configure-Via-LuCI-on-OpenWRT
 [Mailing list]:         http://groups.google.com/group/shadowsocks
-[release]:              https://github.com/clowwindy/ShadowVPN/releases
+[release]:              https://github.com/proxysh/ShadowVPN/releases
 [SDK]:                  http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
 [ShadowVPN with LuCI]:  https://github.com/aa65535/openwrt-shadowvpn
 [Travis CI]:            https://travis-ci.org/clowwindy/ShadowVPN
